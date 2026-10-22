@@ -13,7 +13,6 @@ partial class FormMain
     private System.Windows.Forms.Label lblSkipCount;
     private System.Windows.Forms.NumericUpDown numSkipCount;
     private System.Windows.Forms.Button btnApplyFilter;
-    private System.Windows.Forms.Button btnQuestions;
 
     private System.Windows.Forms.Panel pnlPaging;
     private System.Windows.Forms.Button btnPrev;
@@ -49,7 +48,6 @@ partial class FormMain
         this.lblSkipCount = new System.Windows.Forms.Label();
         this.numSkipCount = new System.Windows.Forms.NumericUpDown();
         this.btnApplyFilter = new System.Windows.Forms.Button();
-        this.btnQuestions = new System.Windows.Forms.Button();
 
         this.pnlPaging = new System.Windows.Forms.Panel();
         this.btnPrev = new System.Windows.Forms.Button();
@@ -77,7 +75,6 @@ partial class FormMain
         // 
         this.pnlTop.BackColor = System.Drawing.Color.FromArgb(240, 244, 248);
         this.pnlTop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-        this.pnlTop.Controls.Add(this.btnQuestions);
         this.pnlTop.Controls.Add(this.pnlFilterParams);
         this.pnlTop.Controls.Add(this.cmbOperation);
         this.pnlTop.Controls.Add(this.lblOperation);
@@ -188,24 +185,6 @@ partial class FormMain
         this.btnApplyFilter.Text = "Применить";
         this.btnApplyFilter.UseVisualStyleBackColor = false;
         this.btnApplyFilter.Click += new System.EventHandler(this.BtnApplyFilter_Click);
-
-        // 
-        // btnQuestions
-        // 
-        this.btnQuestions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-        this.btnQuestions.BackColor = System.Drawing.Color.FromArgb(39, 174, 96);
-        this.btnQuestions.Cursor = System.Windows.Forms.Cursors.Hand;
-        this.btnQuestions.FlatAppearance.BorderSize = 0;
-        this.btnQuestions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-        this.btnQuestions.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-        this.btnQuestions.ForeColor = System.Drawing.Color.White;
-        this.btnQuestions.Location = new System.Drawing.Point(885, 20);
-        this.btnQuestions.Name = "btnQuestions";
-        this.btnQuestions.Size = new System.Drawing.Size(180, 36);
-        this.btnQuestions.TabIndex = 3;
-        this.btnQuestions.Text = "Вопросы к защите ❓";
-        this.btnQuestions.UseVisualStyleBackColor = false;
-        this.btnQuestions.Click += new System.EventHandler(this.BtnQuestions_Click);
 
         // 
         // pnlPaging

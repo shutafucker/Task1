@@ -281,12 +281,6 @@ public partial class FormMain : Form
         ExecuteSelectedQuery();
     }
 
-    private void BtnQuestions_Click(object sender, EventArgs e)
-    {
-        using var formQuestions = new FormQuestions();
-        formQuestions.ShowDialog(this);
-    }
-
     /// <summary>
     /// Наведение красоты в DataGridView: форматирование денежных сумм, дат и выравнивание
     /// </summary>
